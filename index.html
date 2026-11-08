@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Coração é Seu 💖 — Feito com amor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- fundos animados -->
+  <div class="bg-glow"></div>
+  <div class="bg-hearts" id="bgHearts"></div>
+  <div class="bg-sparkles" id="bgSparkles"></div>
+  <div class="rays"></div>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero">
+    <div class="hero-card">
+      <div class="selo">💌 com todo o meu amor</div>
+      <h1 class="titulo">Meu coração<br><span>é todo seu</span></h1>
+      <p class="sub">13 fotos, 13 motivos pra te amar ainda mais.<br>Toque nas polaroids… e não deixe o ursinho sem carinho!</p>
+      <a href="#galeria" class="btn-cta">✨ Ver as lembranças</a>
+      <a href="#urso" class="btn-cta btn-cta2">🧸 Encontrar o urso</a>
+    </div>
+    <div class="coracoes-top" id="coracoesTop"></div>
+  </header>
+
+  <!-- ============ GALERIA ============ -->
+  <section id="galeria" class="galeria">
+    <h2 class="sec-titulo">📸 Nossos momentos</h2>
+    <p class="sec-sub">Cada polaroid guarda um recadinho só seu…</p>
+    <div class="grade" id="grade"></div>
+  </section>
+
+  <!-- ============ URSINHO ============ -->
+  <section id="urso" class="zona-urso">
+    <h2 class="sec-titulo">🧸 O urso do amor</h2>
+    <p class="sec-sub">Toque nele: ele cresce, fica quicando e solta corações vermelhos pra você 💝</p>
+    <div class="palco" id="palco">
+      <div class="urso" id="ursoEl" title="clique">
+        <div class="orelha o-e"></div>
+        <div class="orelha o-d"></div>
+        <div class="cabeca">
+          <div class="olho ol-e"></div><div class="olho ol-d"></div>
+          <div class="hocinho"><span class="nariz"></span><span class="boca">◡</span></div>
+          <span class="bochecha b-e"></span><span class="bochecha b-d"></span>
+        </div>
+        <div class="corpo">
+          <div class="panca p-e"></div><div class="panca p-d"></div>
+          <div class="barriga">
+            <div class="placa">EU<br>AMO<br>TI ❤️</div>
+          </div>
+          <div class="pe pe-e"></div><div class="pe pe-d"></div>
+        </div>
+        <span class="cordao"></span>
+      </div>
+      <div class="sombra-urso"></div>
+      <div class="emo-urso" id="emoUso"></div>
+    </div>
+    <button class="btn-cta btn-cta3" id="btnChuva">💖 Soltar chuva de corações</button>
+    <p class="dica">Aperte a barra — e transforme o dia dela em festa 💞</p>
+  </section>
+
+  <footer class="footer">Feito com ❤️ pelo Jarvis — cada pixel foi feito pra você</footer>
+
+  <!-- ============ MODAL ============ -->
+  <div class="modal" id="modal">
+    <div class="modal-card">
+      <button class="fechar" id="fechar">✕</button>
+      <div class="polaroide-linha"><img id="modalImg" src="" alt="foto"><span class="fita f1"></span><span class="fita f2"></span></div>
+      <p class="modal-msg" id="modalMsg"></p>
+      <div class="modal-nav">
+        <button class="btn-mini" id="ant">← anterior</button>
+        <span id="contador">1/13</span>
+        <button class="btn-mini" id="prox">próxima →</button>
+      </div>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
